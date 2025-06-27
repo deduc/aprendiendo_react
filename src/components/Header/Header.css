@@ -1,0 +1,32 @@
+header {
+    height: 8rem;
+    background-color: lightblue;
+
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+article {
+    width: 30%;
+    height: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+button {
+    width: auto;
+    padding: 8px;
+
+    border-radius: 16px;
+}
