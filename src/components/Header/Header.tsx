@@ -4,18 +4,14 @@ export function Header() {
     return (
         <>
             <header>
-                <article>
-                    <h1>Aprendiendo React</h1>
-                    <p>Para sorprender a la peña</p>
-                </article>
+                <h1>Header</h1>
+                <h2>Aprendiendo React</h2>
 
-                <article>
-                    <p>Por y para programadores</p>
-                </article>
+                <p>Por y para programadores</p>
 
-                <article>
-                    <button>Iniciar sesión</button>
-                    <button>Registrarme</button>
+                <article className="aligned-buttons">
+                    <button>Login</button>
+                    <button>Registrar</button>
                 </article>
             </header>
         </>

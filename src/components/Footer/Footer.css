@@ -1,0 +1,23 @@
+footer {
+    background-color: rgb(186, 186, 186);
+}
+
+.footer-comandos {
+    background-color: rgb(255, 166, 166);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.footer-comandos article {
+    padding: 16px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+code {
+    background-color: lightgray;
+}

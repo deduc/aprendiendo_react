@@ -1,0 +1,48 @@
+.button-loader-container {
+    width: max-content;
+    height: max-content;
+    background-color: red;
+    padding: 8px;
+    position: relative;
+}
+
+.button-loader-container button {
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+    border-radius: 100%;
+    font-size: small;
+    border: none;
+    z-index: 100;
+}
+
+.outline {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-top: 4px solid blue;
+    position: absolute;
+    top: 10%;
+    z-index: 90;
+}
+
+.spinner {
+    animation-name: spinner;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-play-state: paused;
+}
+
+.spinner-play {
+    animation-play-state: running;
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
