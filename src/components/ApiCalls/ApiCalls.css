@@ -1,0 +1,72 @@
+.numberCounter {
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.myMargin {
+    margin: 16px;
+    background-color: rgb(233, 233, 233);
+}
+
+.RAMButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-bottom: 32px;
+}
+
+.RAMButtons button {
+    width: 100px;
+    height: 20px;
+}
+
+.rickYMorty h2 {
+    margin-bottom: 10vh;
+}
+
+.charactersContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.character {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: lightblue;
+    transition: 0.6s;
+}
+
+.character:hover {
+    scale: 1.2;
+    border: 1px solid black;
+    transition: 0.4s;
+}
+
+.character:hover > span {
+    height: auto;
+}
+
+.character:hover > img {
+    border: 1px solid black;
+}
+
+.character span {
+    transition: 0.4s;
+    height: 20px;
+}
+
+.character img {
+    width: 100px;
+    height: 80px;
+}

@@ -21,7 +21,7 @@ header {
     gap: 1rem;
 }
 
-button {
+header button {
     width: auto;
     padding: 8px;
 

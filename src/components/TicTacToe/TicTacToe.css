@@ -1,0 +1,69 @@
+.ticTacToe {
+    outline: 1px solid black;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ticTacToe section {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.ticTacToe .buttonContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.ticTacToe .buttonContainer button {
+    padding: 8px;
+    font-weight: bolder;
+}
+
+.gameContainer {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.piecesContainer {
+    width: 120px;
+    height: 320px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.piecesContainer div {
+    width: 100px;
+    height: 100px;
+    outline: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table tbody * {
+    outline: 1px solid black;
+}
+
+table td {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.pieceO {
+    background-color: rgb(0, 255, 0);
+}
+
+.pieceX {
+    background-color: rgb(117, 117, 255);
+    color: white;
+}
