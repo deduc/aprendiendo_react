@@ -1,15 +1,6 @@
-import { useState } from "react";
 import "./TicTacToe.css";
 
 export function TicTacToe() {
-    var [table, setTable] = useState(
-        [
-            ["", "", ""],
-            ["", "", ""],
-            ["", "", ""]
-        ]
-    );
-
     function onDragStart(event: any) {
         event.dataTransfer.setData("text/plain", event.target.id);
     }

@@ -1,4 +1,4 @@
-import type { MyButtonData } from "../../LearningHooks";
+import type { MyButtonData } from "../../NumberCounter";
 
 export function MyButton(props: MyButtonData) {
     return (
