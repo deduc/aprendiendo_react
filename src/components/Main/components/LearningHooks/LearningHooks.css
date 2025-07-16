@@ -1,0 +1,54 @@
+.counterContainer {
+    padding: 16px;
+}
+
+.CounterBtn {
+    margin: 8px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.MyflexRow {
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 64px;
+}
+
+.MyflexRow article {
+    border: 1px solid black;
+    text-align: center;
+    padding: 8px;
+}
+
+.MyflexRow article:last-child {
+    text-align: center;
+}
+
+.ulMargin {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 32px;
+}
+
+.MyUseContextContainer {
+    padding: 8px;
+    border: 3px solid lightgreen;
+}
+
+.MyUseContextBrother {
+    border: 3px solid rgb(77, 77, 242);
+}
+
+.dFlex-Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}

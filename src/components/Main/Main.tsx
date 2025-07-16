@@ -1,7 +1,8 @@
 import "./Main.css";
-import { ButtonLoader } from "./../ButtonLoader/ButtonLoader";
-import { TicTacToe } from "./../TicTacToe/TicTacToe";
-import { ApiCalls } from "./../ApiCalls/ApiCalls";
+import { ButtonLoader } from "./components/ButtonLoader/ButtonLoader";
+import { TicTacToe } from "./components/TicTacToe/TicTacToe";
+import { ApiCalls } from "./components/ApiCalls/ApiCalls";
+import { LearningHooks } from "./components/LearningHooks/LearningHooks"
 
 export function Main() {
     return (
@@ -18,6 +19,9 @@ export function Main() {
                     </article>
                     <article>
                         <ApiCalls></ApiCalls>
+                    </article>
+                    <article>
+                        <LearningHooks></LearningHooks>
                     </article>
                 </section>
             </main>
