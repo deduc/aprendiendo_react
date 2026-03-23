@@ -1,0 +1,18 @@
+# useEffect
+
+useEffect(effect: () => {}, deps: []);
+	effect -> funcion
+	deps -> array de cosas que, cuando cambie alguna, ejecutan effect
+		# si pones array vacio [] se ejecuta la primera vez que carga el componente, como si fuera un onMounted() de Vue
+		# si no pones array vacio, 
+
+useEffect( () => {...} )
+	Se ejecuta cada vez que el componente nota cualquier tipo de cambio en sus variables
+
+useEffect( () => {...}, [] )
+	Se ejecuta solo 1 vez, cuando se renderiza por 1ª vez el componente.
+	Si sufre cambios, no ejecuta
+	Si se desmonta y re-monta el componente, sí se ejecuta
+
+useEffect( () => {...}, [var1, varX] )
+	Se ejecuta cuando var1 y/o varX sufren una actualización
